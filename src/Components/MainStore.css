@@ -1,0 +1,14 @@
+/* MainStore.css */
+
+.main-store-container {
+    text-align: center;
+    margin-top: 58px; /* Add margin for spacing */
+  }
+  
+  h2 {
+    font-family: 'Your Chosen Font', sans-serif; /* Add a preferred font */
+    font-size: 36px; /* Adjust the font size */
+    color: #333; /* Adjust the color */
+    /* Add more styling as needed */
+  }
+  

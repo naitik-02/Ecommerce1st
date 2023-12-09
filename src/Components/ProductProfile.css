@@ -1,0 +1,34 @@
+/* ProductProfile.css */
+
+.product-profile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 100%; /* Make the image fill the container */
+    max-height: 300px; /* Set a maximum height if needed */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    margin-bottom: 20px;
+  }
+  
+  .profile-details {
+    /* Add styles for the product details */
+  }
+  
+  /* Add any other styles as needed */
+  

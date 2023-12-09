@@ -1,0 +1,29 @@
+/* Footer.css */
+
+.footer {
+    background-color: #4CAF50; /* Greenish background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+  }
+  
+  .contact {
+    margin-bottom: 20px;
+    text-align: left; /* Align the text to the left */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: flex-start; /* Align social icons to the left */
+    margin-bottom: 20px;
+  }
+  
+  .social-icons img {
+    width: 30px; /* Adjust the size of social media icons */
+    margin-right: 10px; /* Add margin between social media icons */
+  }
+  
+  .copyright {
+    font-size: 14px;
+    text-align: left; /* Align the copyright text to the left */
+  }
+  

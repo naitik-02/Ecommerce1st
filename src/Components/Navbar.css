@@ -1,0 +1,139 @@
+/* Navbar.css */
+
+
+.navbar {
+  background-color: #a1f6a4; /* Greenish background color */
+  padding: 10px;
+  height: 50px;
+  color: #fff; /* White text color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Set a high z-index to ensure the navbar is on top */
+}
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 30px;
+  margin-right: 8px;
+  filter: drop-shadow(2px 2px 2px #000);
+  }
+  
+  .online {
+    font-size: 10px; /* Adjust font size */
+    margin-bottom: 5px;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu a,
+  .dropbtn {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px; /* Adjust font size */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .menu a::after,
+  .dropbtn::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: #4caf50; /* Adjust the color */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease; /* Add transition effect */
+  }
+  
+  .menu a:hover::after,
+  .dropbtn:hover::after {
+    width: 100%;
+  }
+  
+  .menu .dropdown {
+    position: relative;
+  }
+  
+  .menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px; /* Adjust the dropdown width */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .menu .dropdown-content a {
+    font-size: 14px; /* Adjust font size */
+    padding: 10px 16px; /* Adjust padding */
+    display: block;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menu .dropdown-content a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: #4caf50; /* Adjust the color */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease; /* Add transition effect */
+  }
+  
+  .menu .dropdown-content a:hover::after {
+    width: 100%;
+  }
+  
+  .menu .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    padding-left: 7px; /* Adjust padding */
+    width: 150px;
+    height:20px; /* Adjust width */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .search-btn {
+    padding: 6px 10px;
+    height: 25px; /* Adjust padding */
+    font-size: 10px; /* Adjust font size */
+    background-color: #4caf50;
+    color: #fff;
+   
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition effect */
+  }
+  
+  .search-btn:hover {
+    background-color: #45a049;
+  }
+  
